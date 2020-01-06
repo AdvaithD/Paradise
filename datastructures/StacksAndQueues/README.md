@@ -6,7 +6,16 @@
 
 
 ### Sample use case: print linked list in reverse (arg: head of the LL)
-NOTE: Solution in `Stack.py`
+
+```
+def print_linked_list_in_reverse(head):
+    let stack = []
+    while head:
+        stack.append(head.data)
+        head = head.next 
+    while stack:
+        print(stack.pop())
+```
 
 1. Create an array
 2. While head is not null, keep pushing (`.append()`) and iterating
@@ -23,4 +32,11 @@ We need to learn to notice when **LIFO** is applicable
 - `len(s) == 0` test if stack is empty
 
 ## Queues
-- First-in, first-outyea
+- First-in, first-out order
+- Two operations: enqueue and dequeue
+- Queues are ideal **when order needs to be preserved** (what does this mean?)
+
+### Queue library
+- q.append
+- q[0]
+- q.popleft()
