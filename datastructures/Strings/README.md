@@ -1,3 +1,5 @@
+# Strings
+
 - String can be viewed as a special kind of array
 - We treat strings and arrays seperately because of certrin operations that are commonly appplied to strings
   - comparison, joining, splitting, searching for substrings, replacing one string by another, parsing etc
