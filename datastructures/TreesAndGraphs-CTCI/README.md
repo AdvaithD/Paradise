@@ -4,7 +4,7 @@
   - Each tree has a root node (not a requirement in graph theory)
   - Root node has child nodes, and each child node has zero or more child nodes.
 
-## Treres vs Binary Trees vs Binary Search Trees
+## Trees vs Binary Trees vs Binary Search Trees
 
 - **Tree:** Each node can have **any** number of children
 - **Binary Tree:** Each node can have **upto two** children
@@ -17,4 +17,10 @@
   - No nodes have only one child.
 - **Perfect Binary Trees:**
   - A binary tree that is both full and complete.
-  - All leaf nodes will be at the same level (and has the max # of nodes)
+  - All leaf nodes will be at the same level (and has the max # of **nodes**)
+
+### Tree Traversals
+
+1. **In-Order:** Left subtree, root note and then right subtree
+2. **Pre-Order:** Root, left subtree and then right subtree
+3. **Post-Order:** Left subtree, right subtree and then root
