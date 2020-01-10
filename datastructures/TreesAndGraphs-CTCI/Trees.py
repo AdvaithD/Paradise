@@ -31,6 +31,13 @@ def inorder(root):
         inorder(root.right)
 
 
+# Test Tree
+#      1
+#     / \
+#    2   3
+#   /     \
+#  4       5
+
 test = Node(1)
 test.left = Node(2)
 test.right = Node(3)
