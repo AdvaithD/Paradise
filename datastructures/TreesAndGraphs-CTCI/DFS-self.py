@@ -20,6 +20,15 @@ graphtest = {
     'H': ['E', 'G'],
     'S': ['A', 'C', 'G']
 }
-visitedTest = dfs(graphtest, 'A', [])
+
+test2 = {
+    'A': ['B', 'C'],
+    'B': ['A', 'D', 'E'],
+    'C': ['A', 'E', 'F'],
+    'D': ['B'],
+    'E': ['B', 'C'],
+    'F': ['C']
+}
+visitedTest = dfs(test2, 'A', [])
 
 print(visitedTest)

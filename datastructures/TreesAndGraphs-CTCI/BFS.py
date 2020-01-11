@@ -20,3 +20,16 @@ def BFS(graph, start):
 # find all the neighbors
 # add each neighbour to the queue
 # keeps looping if the queue is not empty
+
+
+test2 = {
+    'A': ['B', 'C'],
+    'B': ['A', 'D', 'E'],
+    'C': ['A', 'E', 'F'],
+    'D': ['B'],
+    'E': ['B', 'C'],
+    'F': ['C']
+}
+visitedTest = BFS(test2, 'A')
+
+print(visitedTest)

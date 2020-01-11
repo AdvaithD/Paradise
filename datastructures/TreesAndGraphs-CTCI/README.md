@@ -44,7 +44,7 @@
 ## DFS and BFS
 
 - **DFS:** Start at the root and explore each branch completely before moving onyo next branch.
-  - DFS is preferred if you ant to visit every node in the graph.
+  - DFS is preferred if you want to visit every node in the graph.
 - **BFS:** Start at the root and explore each neighbor before going on to any of their children.
   - BFS is preferred to find the shortest path b/w two nodes
 
