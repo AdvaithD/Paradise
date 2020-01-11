@@ -28,3 +28,4 @@ Most of the content in this repo stems from the following:
 4. [CS 373E by Steven Skiena](https://www.youtube.com/watch?v=A2bFN3MyNDA&list=PLOtl7M3yp-DX32N0fVIyvn7ipWKNGmwpp) - This guy is crazy except for the 480p videos.
 5. Ocasionally use [BaseCS](https://medium.com/basecs) cause I like reading in-depth content.
 6. Cracking the Coding Interview
+7.

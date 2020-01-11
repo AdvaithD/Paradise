@@ -39,9 +39,26 @@
 
 # Graphs
 
+- A graph is a non-linear data structure consisting of nodes and edges
+
 ## DFS and BFS
 
 - **DFS:** Start at the root and explore each branch completely before moving onyo next branch.
   - DFS is preferred if you ant to visit every node in the graph.
 - **BFS:** Start at the root and explore each neighbor before going on to any of their children.
   - BFS is preferred to find the shortest path b/w two nodes
+
+## How to implement a graph
+
+- Use a combination of `dicts` and `lists`
+- Keys are nodes
+  - Each key has a corresponding list containing the nodes that are connected by a direct arc from this node.
+
+```
+    graph = {'A': ['B', 'C'],
+             'B': ['C', 'D'],
+             'C': ['D'],
+             'D': ['C'],
+             'E': ['F'],
+             'F': ['C']}
+```
