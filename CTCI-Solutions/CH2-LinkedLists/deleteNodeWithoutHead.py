@@ -12,9 +12,9 @@ def deleteNode(node):
     node.next = node.next.next
 
 
-Essentially, copy the next node's data to the node you want to delete
-Then change current node's 'next' pointer to skip 1 node
-Step 1: a -> b -> c -> d -> e -> f(we are given c)
-Step 2: a -> b -> d -> d -> e -> f(copy d to c's node)
-Step 3: a -> b -> d -> e -> f(change d(previously c) to point to e and not d)
-Step 4: wow u did this without access to the head element 👏
+# Essentially, copy the next node's data to the node you want to delete
+# Then change current node's 'next' pointer to skip 1 node
+# Step 1: a -> b -> c -> d -> e -> f(we are given c)
+# Step 2: a -> b -> d -> d -> e -> f(copy d to c's node)
+# Step 3: a -> b -> d -> e -> f(change d(previously c) to point to e and not d)
+# Step 4: wow u did this without access to the head element 👏

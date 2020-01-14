@@ -30,7 +30,7 @@ def kLastNodeBadSolution(head, k):
 
 
 # kLastNodeBadSolution(unsorted, 3)
-
+# O(n) time and O(1) space
 def kLastOptimal(head, k):
     r1 = head
     r2 = head
