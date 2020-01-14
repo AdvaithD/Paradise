@@ -13,4 +13,4 @@ def urlfy(string):
 # .strip() removes leading and trailing spaces of a string
 
 
-print(urlfy("hello my name is advaith and i fucking suck"))
+print(urlfy("hello my name is advaith and i am bad at coding"))
