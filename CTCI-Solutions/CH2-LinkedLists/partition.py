@@ -1,3 +1,9 @@
+# Write code to partition a linked list around a value 'x' such that
+# nodes < x come before nodes >= x
+# if x is contained within the list, the values of x only need to be
+# after the elements less than x
+
+
 class ListNode():
     def __init__(self, data=0, next_node=None):
         self.data = data
@@ -13,6 +19,8 @@ unsorted.next.next.next.next = ListNode(7)
 unsorted.next.next.next.next.next = ListNode(2)
 unsorted.next.next.next.next.next.next = ListNode(1)
 unsorted.next.next.next.next.next.next.next = None
+
+# 3 -> 4 -> 5 -> 6 -> 7 -> 2 -> 1
 
 
 def partitionOne(list, pivot):
@@ -65,4 +73,4 @@ def partitionTwo(list, pivot):
 res = partitionTwo(unsorted, 5)
 
 print(res.data, res.next.data, res.next.next.data,
-      res.next.next.next.data, res.next.next.next.next.data)
+      res.next.next.next.data, res.next.next.next.next.data, res.next.next.next.next.next.data, res.next.next.next.next.next.next.data)

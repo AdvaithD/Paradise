@@ -1,9 +1,10 @@
 def url(arg):
-    array = arg.split()
+    array = list(arg)
     res = ""
     print(array)
     for i in array:
-        res += '%20' + i
+        # if we find a space
+        if i = " "
     print(res)
 
 
