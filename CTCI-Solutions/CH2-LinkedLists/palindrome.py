@@ -25,5 +25,18 @@ def palindrome(head):
     return True
 
 
-isPalindrome = palindrome(unsorted)
-print(isPalindrome)
+# isPalindrome = palindrome(unsorted)
+# print(isPalindrome)
+
+
+# LOGIC: Create two runners (1x and 2x). Keep adding the slow runner's data to a stack
+# until you reach the end of the list.
+# Iterate the slow runner from midpoint to end and keep comparing with stack.pop()
+# return true if the loop goes through, else return false
+def palindromeTwo(head):
+    fast, slow = head
+    stack = []
+    while fast and fast.next:
+        stack.push(fast.data)
+        fast = fast.next.next
+        slow = slow.next
