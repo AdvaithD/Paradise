@@ -3,8 +3,6 @@
 # Write a method to merge B into A in sorted array.
 
 # a and b are the two arrays
-
-
 import unittest
 
 
@@ -20,7 +18,6 @@ def mergeSortedArrays(A, B):
             A[index] = B[indexB]
             indexB -= 1
         index -= 1
-
     return A
 
 # Test
